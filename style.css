@@ -142,6 +142,9 @@ main {
   padding-bottom: 50px;
   color: rgb(52, 58, 64);
 }
+.experience {
+  margin-bottom: 30px;
+}
 #section_experience .section_experience_skill {
   color: rgb(52, 58, 64);
   font-size: 30px;
@@ -230,14 +233,17 @@ main {
   padding-bottom: 30px;
 }
 .section_skills_icons {
+  max-width: 600px;
   font-size: 50px;
+  flex-wrap: wrap;
+  display: flex;
   color: rgb(108, 117, 125);
 }
 .section_skills_icons i {
   padding-right: 10px;
 }
 .skills {
-  width: 70%;
+  width: 100px;
   display: flex;
   gap: 20px;
   align-items: center;
